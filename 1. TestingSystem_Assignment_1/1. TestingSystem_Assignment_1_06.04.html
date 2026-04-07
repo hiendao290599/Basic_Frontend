@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td{
+            border: 3px solid rgb(0, 17, 92);
+            border-collapse: collapse;
+        }
+        th,td{
+            background-color: rgb(184, 210, 255);
+        }
+    </style>
+</head>
+<body>
+    <!-- Exercise 1 - Question 1 -->
+    <h1>Hello World</h1>
+    <p>My first paragraph.</p>
+    <br>
+    <!-- Exercise 2 - Question 1 -->
+     <h1>Đây là thẻ h1</h1>
+     <h2>Đây là thẻ h2</h2>
+     <h3>Đây là thẻ h3</h3>
+     <h4>Đây là thẻ h4</h4>
+     <h5>Đây là thẻ h5</h5>
+     <h6>Đây là thẻ h6</h6>
+    <br>
+    <!-- Exercise 2 - Question 2 -->
+     <h2>DANH SÁCH LỚP HỌC</h2>
+     <ol>
+        <li>Nguyễn Ngọc Duy</li>
+        <li>Tống Quang Anh</li>
+        <li>Đinh Thu Loan</li>
+        <li>Hà Văn Tiến</li>
+        <li>Nguyễn Hải Đăng</li>
+        <li>Nguyễn Tiến Quang</li>
+        <li>Nguyễn Văn Chiến</li>
+     </ol>
+     <br>
+     <h2>A list in a list in a list</h2>
+     <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+            <ul>
+                <li>Black Tea</li>
+                <li>Green Tea</li>
+                    <ul>
+                        <li>China</li>
+                        <li>Africa</li>
+                    </ul>
+            </ul>
+        <li>Milk</li>
+     </ul>
+     <br>
+     <ol>
+        <li>Cơm trưa</li>
+            <ul style="list-style-type:circle;">
+                <li>Cơm chiên hải sản</li>
+                <li>Cơm sườn non nấu cam</li>
+                <li>Cm canh chua cá lóc</li>
+            </ul>
+            <br>
+        <li>Tráng miệng trái cây</li>
+            <ul style="list-style-type: circle;">
+                <li>Nho tươi</li>
+                <li>Chuối</li>
+                <li>Mận</li>
+            </ul>
+     </ol>
+    <!-- Exercise 2 - Question 3 -->
+     <p><b>This text is bold</b></p>
+     <p><i>This text is italic</i></p>
+     <p>This is <sub>subscript</sub> and <sup>superscript</sup></p>
+     <p>This text is normal</p>
+     <p><e>This text is emphasized</e></p>
+     <p><b>HTML <small>SMALL</small> FORMATING</b></p>
+     <P><b>HTML <mark>Marked</mark> Formating</b></P>
+     <p>My favorite color is<del>blue</del> red</p>
+     <p>My favorite <ins>color</ins> is red</p>
+
+    <!-- Exercise 3 - Question 3 -->
+         <!-- Tạo table 1-->
+    <table>
+        <tr>
+            <th>Họ tên</th>
+            <th>Ngày sinh</th>
+            <th>Giới tính</th>    
+        </tr>
+        <tr>
+            <td>Trần Anh Đức</td>
+            <td>03/08/1993</td>
+            <td>Nam</td>   
+        </tr>
+        <tr>
+            <td>Kiều Thị Thu Hằng</td>
+            <td>04/09/1991</td>
+            <td>Nữ</td>   
+        </tr>
+        <tr>
+            <td>Vương Thị Lê Na</td>
+            <td>06/10/1991</td>
+            <td>Nữ</td>   
+        </tr>
+    </table>
+    <br>
+    <!-- Tạo Table 2 -->
+    <table>
+        <tr>
+            <th rowspan="2">STT</th>
+            <th rowspan="2">Họ tên</th>
+            <th colspan="2">Giới tính</th>
+            <th rowspan="2">Chức vụ</th>
+        </tr>
+        <tr>
+            <th>Nam</th>
+            <th>Nữ</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Trần Đức Anh</td>
+            <td>X</td>
+            <td></td>
+            <td>Lớp trưởng</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Kiều Thị Thu Hằng</td>
+            <td></td>
+            <td>X</td>
+            <td>Lớp phó</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Vương Thị Lê Na</td>
+            <td></td>
+            <td>X</td>
+            <td>Tổ viên</td>
+        </tr>
+    </table>
+    <br>
+    <!-- Tạo Table 3 -->
+     <table>
+        <tr>
+            <th>STT</th>
+            <th>Họ tên</th>
+            <th>GVHD</th>
+            <th>Lịch gặp GVHD</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nguyễn Lê Thu Trang</td>
+            <td rowspan="3">Th.S Hồ Sỹ Tuy Đức</td>
+            <td rowspan="3">08/03/2018</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Nguyễn Thị Diễm</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Phạm Thị Hồng Đào</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Nguyễn Thị Kim Sa</td>
+            <td rowspan="2">Th.S Phạm Thị Huyền Quyên</td>
+            <td rowspan="2">05/03/2028</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Lê Thị Trang</td>
+        </tr>
+     </table>
+     <br>
+    <!-- Tạo Table 4 -->
+     <table>
+        <tr>
+            <th colspan="2">Bảng điểm lớp 9B</th>
+            <th rowspan="2">Toán</th>
+            <th rowspan="2">Lý</th>
+            <th rowspan="2">Hóa</th>
+        </tr>
+        <tr>
+            <th>STT</th>
+            <th>Họ tên</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Trần Đức Anh</td>
+            <td>8.5</td>
+            <td>3.0</td>
+            <td>7.75</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Kiều Thị Thu Hằng</td>
+            <td>10</td>
+            <td>9.25</td>
+            <td>5.75</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Vương Thị Lê Na</td>
+            <td>2.25</td>
+            <td>6.0</td>
+            <td>7.75</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="4">Điểm trung bình cả lớp</td>
+        </tr>
+     </table>
+         
+</body>
+</html>
